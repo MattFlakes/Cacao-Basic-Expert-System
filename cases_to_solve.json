@@ -1,0 +1,6 @@
+[
+    {"id": "seed_01", "data": {"length_mm": 23.5, "color": "brown", "mold": false}},
+    {"id": "seed_02", "data": {"length_mm": 25.0, "color": "light", "mold": true}},
+    {"id": "seed_03", "data": {"length_mm": 18.0, "color": null, "mold": false}},
+    {"id": "seed_04", "data": {"length_mm": -3, "color": "purple", "mold": "yes"}}
+]

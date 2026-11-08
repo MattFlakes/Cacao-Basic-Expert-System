@@ -1,0 +1,13 @@
+[
+    {"name": "mold_reject", "logic": "and",
+     "if": [{"field": "mold", "op": "==", "value": true}],
+     "then": "reject"},
+    {"name": "premium_brown", "logic": "and",
+     "if": [{"field": "length_mm", "op": ">=", "value": 22},
+            {"field": "color", "op": "==", "value": "brown"},
+            {"field": "mold", "op": "==", "value": false}],
+     "then": "premium"},
+    {"name": "short_seed", "logic": "and",
+     "if": [{"field": "length_mm", "op": "<", "value": 15}],
+     "then": "standard"}
+]
