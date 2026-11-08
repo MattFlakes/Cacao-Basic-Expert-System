@@ -1,0 +1,7 @@
+1.- This code only works for google colab.
+2.- The JSON files are examples made by me, but you can create new ones to add more rules or cases.
+3.- To make it work, first upload both JSON files to the Colab terminal by using "1) Import rules" 
+    and "2) Import cases". Next, use the option "Solve" to get the conclusions from the cases using 
+    the rules provided. Finally, after that, you can use "4) Export conclusions" to get a JSON file 
+    with the conclusions. If needed, you can also export the cases or rules used in the code.
+4.- Enjoy the new data :).
